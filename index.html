@@ -4,33 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <title>RSSchool CV</title>
 </head>
 <body>
-    <div>
-      <header>
-        <h1>Anton Lashch</h1>
-      </header>
-        
-    </div>
-    <main>
-        <div>
-          <section>
+    <header>
+      <nav class="navbaton">
+        <ul class="list-item">
+          <li>
+            <a class="nav-item" href="#Contacts">Сontacts</a>
+          </li>
+          <li>
+            <a class="nav-item" href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a class="nav-item" href="#About">About me</a>
+          </li>
+          <li>
+            <a class="nav-item" href="#Education">Education</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-description">
+        <img class="avatarlogo" src="/images/avatar1.jpg" alt="avatar">
+        <h1>Anton Lashch</h1>   
+      </div>
+    </header>
+    <main class="content main-container">
+        <aside>
+          <div id="Contacts">
             <h2>Contacts</h2>
+              <ul>
+                <li>
+                  Email: <a href="mailto:grollxip32@gmail.com">grollxip32@gmail.com</a>
+                </li>
+                <li>
+                  <a href="https://vk.com/id34655221" target="_blank">Vk</a>
+                </li>      
+                <li>
+                  <a href="https://t.me/grollxip" target="_blank">Telegram</a>
+                </li>
+              </ul>
+          </div>
+          <div id="Skills">
+            <h2>Skills</h2>
+              <ul>
+                <li>
+                  Git
+                </li>
+              </ul>
+          </div>
+          <div>
+            <h2>Languages</h2>
+              <ul>
+                <li>
+                  English(A1)
+                </li>
+              </ul>
+          </div>
+        </aside>
+        <section>
+          <h2 id="About">About me</h2>
+            <p>Came to the course to get knowledge of basic skills (CSS, JavaScript)</p>
+          <h2>Experience</h2>
+            <p>Currently no work experience</p>
+          <h2>Code example</h2>
+            <pre>
+                function multiply(a, b){
+                    return a * b
+                   }
+            </pre>
+          <h2 id="Education">Education and Course</h2>
             <ul>
               <li>
-                Email:<a href="grollxip32@gmail.com">grollxip32@gmail.com</a>
+                Soligorsk State College
               </li>
               <li>
-                GitHub:<a href="https://AntonLashch">Anton Lashch</a>
-              </li>
-              <li>
-                Telegram:<a href="https://t.me/grollxip">t.me/grollxip</a>
+                Current course:JS/FE Pre-School 2022Q2
               </li>
             </ul>
-          </section>  
-        </div>
+        </section>
     </main>
- 
+    <footer class="footer-box">
+      <p class="footer-item"><a href="https://rs.school/js/" target="_blank"><img class="rslogo" src="/images/rs_school_js.svg" alt="RSSchool logo"></a></p>
+      <a class="footer-item" href="https://github.com/AntonLashch" target="_blank">Github</a>
+      <p class="footer-item">2022</p>
+    </footer>
 </body>
 </html>
